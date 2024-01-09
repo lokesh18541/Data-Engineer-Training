@@ -1,17 +1,16 @@
 # Learning Courses
-Learning:-
+Programing language: -
+        Python
+Clouds: -
+          Azure
+Query Languages: -
+            SQL
+DATA VISUALIZATION TOOLS: -
+          TABLEAU, POWERBI
+BIGDATA FRAMEWORK: -
+         SPARK/ HADOOP
+SCHEDULER:-
+        ADF( AZURE)
+AUTOMATION SHELL SCRIPTING:-
+        LINUX -- > COMMANDS AND SCRIPTING
 
-1)SQL
-2)Python
-#ADE courses
-Data Engineering training:
-#Login in through the below link with this Email ID and password for Data Eng training videos
-https://visualpath.teachable.com/
-applabs.de@gmail.com
-Applabs@99
-
-tableau
-
-power bi
-
-snowflake
