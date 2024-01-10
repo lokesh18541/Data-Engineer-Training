@@ -1,0 +1,96 @@
+1st class is all about the introduction 
+creating the account on data bricks
+--> Python, SQL, spark SQL
+started with Python ------------------------------------------------------------------------------------------------>  
+variables, data types, and some basic concepts of python
+
+formating
+variables that we use will pass to the string dynamically
+ex:- 
+var= 'table'
+for using this 
+select the {var}'
+na= 'keys'
+select * from {}.{}.format(var,na)
+
+3rd class--------------------------------------------------------------------------------------------------------------->
+collections:-
+   list, tuple, dictionary, set,
+list is mutable
+start with square brackets
+can have duplicates 
+can contain any value
+index starts with zero
+example of a list:-
+l1=[1,2,3,4,'a','$']
+Len(l1)
+l1.remove(2)
+l2.append(3)
+
+tuples:--
+
+tuples start with small brackets
+it is immutable
+allows duplicates
+
+sets:-
+
+sets start and close with flower brackets
+it is mutable
+it doesn't allow
+my_set = {1, 2, 3, 4, 5}
+
+dictionary:-
+
+dictionary starts and closes with {}
+it has key, values
+they are mutable
+my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+
+video-4:---------------------------------------------------------------------------------
+
+loops
+for 
+while
+for loop syntax:-
+for -- in range:
+  condition
+  statement
+
+break, stop the loop
+continue, skip the loop for a particular condition
+
+while loop syntax
+
+while condition:
+  statement
+
+functions:
+
+def function_name(parameter1, parameter2):
+    statements1
+    statenents2  
+    .
+    .
+    statement n
+
+
+lambda function:-
+
+ lambda function is a one-line function
+lambda syntax:-
+function_name = lambda parameters: expression
+
+exception handling:-
+
+there are different types of exception handling:
+zero division error, value error, etc
+
+
+global variable and local variable
+
+declare a global variable with a keyword inside the function to use outside the function.
+
+
+
+
