@@ -1,0 +1,38 @@
+file sysytem comands
+
+%fs ls : listing files or directory
+%fs mkdirs: creting a new directory
+%fs put: creating a new file
+cp: copy file
+mv: move file
+rm: remove directory
+head: reading  first few lines of the file
+
+syntax
+%fs mkdirs " pathname"
+
+sql-----------------------------------------------------------
+difference between OLTP AND OLAP
+
+OLAP--> OLAP IS an analytical process
+it is designed for complex queries and historical data
+it can be used for complex data and complex queries
+OLTP_ IT IS ONLINE TRANSACTION PROCESS 
+    it deals on day to day queries
+    it focus on small data
+video6--------------------------------------------------------------------------------------------------------------------------
+difference between DBMS and RDBMS
+
+while both DBMS and RDBMS are systems for managing databases, RDBMS enforces a structured and relational approach, providing features like ACID properties, normalization, 
+and schema enforcement, making it suitable for more complex and larger-scale applications.
+
+DBMS Example: Microsoft Access is an example of a DBMS. It allows users to create and manage databases but doesn't 
+enforce a strict structure or relationships between tables.
+
+
+RDBMS Example: MySQL, PostgreSQL, and Oracle Database are examples of RDBMS. They enforce a relational structure,
+support ACID properties, and are suitable for handling large-scale and complex datasets.
+
+
+SQL:-
+
