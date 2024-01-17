@@ -2,17 +2,17 @@ video-7
 
 creating the tables
 
-      view of the table
+      View of the table
 
-        temperorie view  
+        temporary view  
         general view
         global view
 
 check constraint with condition 
 
-parttion of table
+partition of table
 
-alter the table
+Alter the table
 
 
 video-8:-----------------------------
@@ -22,5 +22,47 @@ this video is all about dml( data manupulation lanuguage)
 insert
 update
 delete and merge
+truncate: it is a whole table operation 
+
+Where delete is a conditional delete operation that works on the delta file 
+and does not work on CVS files.
+Merge works with data table
+
+If the data is too large then developers go for a data lake
+
+If the data is organized for small Businesses then azure is used.
+
+slowly changing dimensions(scd) tpes
+
+Type 1: Suitable when historical data is not necessary
+Type 2: Preferred when maintaining a versioned history is vital
+                  it maintains all the history of data
+Type 3: Beneficial when tracking a limited number of changes efficiently
+            it tracks only the previous one and the current one
+-------------------------------------------------------------------------------
+video-9
+
+DRL- DATA RETRIVAL LANGUAGE
+
+Select
+
+from
+where
+groupby
+have by
+ordering by
+
+
+joins
+
+inner join
+left join
+right join
+anti  join
+
+-----------------------------------------------------------------------
+
+
+
 
 
