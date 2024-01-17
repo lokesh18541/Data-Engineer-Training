@@ -1,0 +1,32 @@
+sql continution
+--------------------------------------------------
+
+set operations
+
+union
+union all
+intersect 
+intersect all
+minus
+except
+
+clusterby- clusterby age  -- reorder by data
+
+distributed- distribute the data but not arrage by order.
+
+ranking function
+  row number  gives thge
+  rank      skip the rank number it skips the number and give next number
+  dENSE RANK  DOESNT SKIP THE RANKING NUMBER IF EQUAL DUPLICATES ARE PRESENT
+
+data lake is a storage cloud
+it followed hirachicy
+DML capabolity not present.
+
+delta lake follow hive metastore.
+
+
+------------------------------------------------------end with sparksql-------------------------------------------------------------
+
+
+
