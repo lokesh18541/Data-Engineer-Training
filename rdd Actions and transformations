@@ -36,5 +36,27 @@ rdd.text = sc.textfile
 data science people may use rdd but only support to unstructure data.
 
 
+wide transformations:-
+
+
+filter(lambda function)
+map(lambda function)
+flat map
+union
+intersection
+
+
+wide transformations:---------------
+
+group by key-value pair
+
+reduce is the best keyword than group by
+cartesian product-  
+list(1,2,3)
+list(1,2,3,4)
+(1,1)(1,2)
+
+
+
 
 
