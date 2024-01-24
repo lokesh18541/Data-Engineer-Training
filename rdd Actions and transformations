@@ -1,0 +1,40 @@
+it is Resilient distributed dataset
+it  followes DGA and fault tolerant
+if i want to record the data
+rdd = sc.parallellize([1,2,3,4,5,6])
+rdd = sc.textfile("path")
+rdd= sc.pickelfile("path")-- encripted serialization
+
+
+actions:-
+
+rdd.collect() ---> print the statement
+rdd.first() 
+rdd.take(value)---> prints the first value number 
+rdd.takesample(,3)-----> prints the number reverse to right
+
+sum
+count
+mean
+max
+stdev
+
+glom()  -----> partitions
+repartition-------->  increase or decrease num of partition 
+coalesce ------------> cannot increase number of partitions move the data between partitions
+
+rdd.glom().collect()
+
+rdd.getNumPartitions()
+
+
+%fs ls dbfs:/databricks-datasets/
+
+read the data
+rdd.text = sc.textfile
+
+data science people may use rdd but only support to unstructure data.
+
+
+
+
