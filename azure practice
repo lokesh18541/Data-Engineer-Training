@@ -1,8 +1,8 @@
 this week summary
 
-azure itroduction
+azure introduction
 account creation
-creating the storage account
+creating the bloob storage
 
 creating the containers
 
@@ -10,13 +10,13 @@ creating the services
 
 creating linked service
 
-creating the data set in the synaps
+creating the data set in the synapse
 
-copying the data from source container to target container
+copying the data from the source container to the target container in a blob storage
 
 
 copying selected files from the container
 
 
-copying multiple containers from the sourcestoragecontainer
+copying multiple containers from the source storage container
 
