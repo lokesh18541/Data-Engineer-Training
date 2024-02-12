@@ -1,0 +1,54 @@
+to create  Logging Pipeline Audit Data to Azure SQL Database Table
+
+select * from cust 
+
+create table pipeline_log
+(
+synapseworkspacename varchar(250),
+pipelinename varchar(250),
+runid varchar(250),
+srcschema varchar(250),
+srctable varchar(250),
+readrecord int,
+writerecord int,
+executionstarttime datetime,
+executionendtime datetime,
+copyduration int,
+status varchar(250)
+error varchar(1000)
+loaddate datetime
+)
+
+
+create proc update_pipeline_log 
+@synapseworkspacename varchar(250),
+@pipelinename varchar(250),
+@runid varchar(250),
+@srcschema varchar(250),
+@srctable varchar(250),
+@readrecord int,
+@writerecord int,
+@executionstarttime datetime,
+@executionendtime datetime,
+@copyduration int,
+@status varchar(250)
+@error varchar(1000)
+@loaddate datetime
+AS
+BEGIN
+inser into pipeline_log values(
+synapseworkspacename,
+pipelinename,
+runid,
+srcschema,
+srctable,
+readrecord,
+writerecord,
+executionstarttime,
+executionendtime,
+copyduration,
+status
+error
+loaddate
+)
+END
