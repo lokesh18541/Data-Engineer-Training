@@ -52,3 +52,15 @@ error
 loaddate
 )
 END
+
+
+
+@activity('Copy data1').output.copyDuration
+@activity('Copy data1').output.errors
+
+@activity('Copy data1').executionendtime
+
+@activity('Copy data1').executionstarttime
+@activity('Copy data1').output.rowsCopied
+@activity('Copy data1').status
+@pipeline().DataFactory
