@@ -14,8 +14,8 @@ writerecord int,
 executionstarttime datetime,
 executionendtime datetime,
 copyduration int,
-status varchar(250)
-error varchar(1000)
+status varchar(250),
+error varchar(1000),
 loaddate datetime
 )
 
@@ -31,25 +31,25 @@ create proc update_pipeline_log
 @executionstarttime datetime,
 @executionendtime datetime,
 @copyduration int,
-@status varchar(250)
-@error varchar(1000)
+@status varchar(250),
+@error varchar(1000),
 @loaddate datetime
 AS
 BEGIN
-inser into pipeline_log values(
-synapseworkspacename,
-pipelinename,
-runid,
-srcschema,
-srctable,
-readrecord,
-writerecord,
-executionstarttime,
-executionendtime,
-copyduration,
-status
-error
-loaddate
+insert into pipeline_log values(
+@synapseworkspacename,
+@pipelinename,
+@runid,
+@srcschema,
+@srctable,
+@readrecord,
+@writerecord,
+@executionstarttime,
+@executionendtime,
+@copyduration,
+@status,
+@error,
+@loaddate
 )
 END
 
@@ -57,9 +57,7 @@ END
 
 @activity('Copy data1').output.copyDuration
 @activity('Copy data1').output.errors
-
 @activity('Copy data1').executionendtime
-
 @activity('Copy data1').executionstarttime
 @activity('Copy data1').output.rowsCopied
 @activity('Copy data1').status
